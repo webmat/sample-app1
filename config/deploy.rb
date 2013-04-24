@@ -1,6 +1,7 @@
 set :application, "app1"
-set :repository,  "https://github.com/teohm/sample-app1.git"
-set :branch, "master"
+# Use mine until my tweaks make it upstream
+set :repository,  "https://github.com/webmat/sample-app1.git"
+set :branch, "integration"
 set :keep_releases, 5
 
 
